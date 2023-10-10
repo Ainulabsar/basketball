@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    /* background-color: aliceblue; */
+}
+.screen{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/imgb.jpg);
+    color: #1B244A;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen img{
+    width: 100px;
+    height: 100px;
+
+}
+h2{
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    color: white
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: #1B244A;
+    border-radius: 10px;
+    justify-self: center;
+    display: flex;
+}
+.home{
+    width: 300px;
+    height:400px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.home h2 {
+     font-family: Verdana;
+     font-size: 40px;
+     text-align: center;
+     color: #EEEEEE;
+}
+.scorebox{
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.guest{
+    width: 300px;
+    height:400px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.guest h2 {
+     font-family: Verdana;
+     font-size: 40px;
+     text-align: center;
+     color: #EEEEEE;
+}
+#home-score{
+    font-size: 100px;
+    font-family:"Cursed Timer ULiL";
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+
+}
+#guest-score{
+    font-size: 100px;
+    font-family:"Cursed Timer ULiL";
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+#add1{
+    width: 50px;
+    height: 30px;
+    color: darkblue;
+    font-family: "Cursed Timer ULiL";
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+#add2{
+    width: 50px;
+    height: 30px;
+    color: darkblue;
+    font-family: "Cursed Timer ULiL";
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+#add3{
+    width: 50px;
+    height: 30px;
+    color: darkblue;
+    font-family: "Cursed Timer ULiL";
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+.restart{
+    justify-content: center;
+}
+#restart{
+    width: 155px ;
+    height: 35px;
+    margin-top: 20px;
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+    color: white;
+    align-self: center;
+    border-radius: 10px;
+    /* font-weight: bold; */
+    font-size: 1em;
+
+}
+#delete1{
+    width: 155px ;
+    height: 35px;
+    margin-top: 20px;
+    background-color: red;
+    border: 2px solid  red ;
+    color: white;
+    align-self: center;
+    border-radius: 10px;
+    /* font-weight: bold; */
+    font-size: 1em;
+
+}
+#delete2{
+    width: 155px ;
+    height: 35px;
+    margin-top: 20px;
+    background-color: red;
+    border: 2px solid  red ;
+    color: white;
+    align-self: center;
+    border-radius: 10px;
+    /* font-weight: bold; */
+    font-size: 1em;
+
+}
